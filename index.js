@@ -213,7 +213,7 @@ class GameMenu2 extends Phaser.Scene {
     super({ key: "GameMenu2" });
   }
   preload() {
-    this.load.image("GameMenu2", "./assets/GameMenu2.jpg");
+    this.load.image("GameMenu2", "./assets/gameMenu2.jpg");
   }
   create() {
     const GameMenu2 = this.add.image(200, 350, "GameMenu2");
