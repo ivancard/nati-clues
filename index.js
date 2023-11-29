@@ -288,7 +288,7 @@ class GameNumberTwo extends Phaser.Scene {
     this.floor.body.allowGravity = false;
 
     //real Floor
-    const realFloor = this.add.image(200, 540, "realFloor");
+    const realFloor = this.add.image(200, 620, "realFloor");
     realFloor.setScale(0.5);
 
     // Jugador
@@ -334,7 +334,7 @@ class GameNumberTwo extends Phaser.Scene {
       this.player.setVelocityY(-500);
       this.obstaclesJumped++;
 
-      if (this.obstaclesJumped === 1) {
+      if (this.obstaclesJumped === 20) {
         this.cameras.main.fade(
           1000,
           0,
